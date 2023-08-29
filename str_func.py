@@ -6,11 +6,3 @@ def to_upper(letters: str) -> str:
     """
     return letters.upper()
 
-
-def to_title(letters: str) -> str:
-    """
-    Take string and return this string with title
-    :param letters: letters: string to transform
-    :return: string with title
-    """
-    return letters.title()
