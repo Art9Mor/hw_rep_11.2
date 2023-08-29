@@ -4,7 +4,8 @@ def to_upper(letters: str) -> str:
     :param letters: string to transform
     :return: string with letters in upper case
     """
-    return letters.upper()
+    result = letters.upper()
+    return result
 
 
 def to_title(letters: str) -> str:
@@ -13,4 +14,5 @@ def to_title(letters: str) -> str:
     :param letters: letters: string to transform
     :return: string with title
     """
-    return letters.title()
+    result = letters.title()
+    return result
